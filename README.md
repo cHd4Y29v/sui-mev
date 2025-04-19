@@ -5,7 +5,8 @@
 Start the bot with your private key.
 
 ```bash
-cargo run -r --bin arb start-bot -- --private-key {}
+export SUI_RPC_URL=https://fullnode.mainnet.sui.io:443
+cargo run -r --bin arb start-bot --private-key {}
 ```
 
 ## Supports
